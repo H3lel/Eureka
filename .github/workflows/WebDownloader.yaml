@@ -66,6 +66,7 @@ jobs:
           MAX: ${{ inputs.max_pages }}
           THREADS: ${{ inputs.threads }}
           FILE_NAME: ${{ inputs.file_name }}
+          EXTERNAL_DOMAINS: ""
         run: |
           python3 << 'PYEOF'
           from __future__ import annotations
